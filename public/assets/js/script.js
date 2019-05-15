@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
         $(".devour-form").on("submit", function(event){
             event.preventDefault();
             console.log("submit devour")
@@ -17,8 +16,5 @@ $(document).ready(function(){
             });
 
         })
-
-
-
 
 });

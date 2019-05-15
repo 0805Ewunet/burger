@@ -7,13 +7,14 @@ connection = mysql.createConnection(process.env.JAWSDB_URL);
   connection = mysql.createConnection({
     host:"localhost",
     user: "root",
-    password: "hacktheplanet",
-    database: "todoagain_db",
+    password: "Etba@084113",
+    database: "burgers_db",
   });
 };
 
 connection.connect();
-module.exports = connections;
+
+module.exports = connection;
 
 
 
@@ -35,4 +36,4 @@ module.exports = connections;
 
 
 
-module.exports = connection;
+// module.exports = connection;
